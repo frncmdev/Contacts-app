@@ -14,7 +14,7 @@ namespace contacts_lib.models.DTO
 
         public string Email { get; set; } = null!;
 
-        public byte[] Password { get; set; } = null!;
+        public string Password { get; set; } = null!;
 
     }
 }
